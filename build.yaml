@@ -1,0 +1,16 @@
+---
+include:
+  - board: nice_nano@2.0.0//zmk
+    shield: corne_left
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
+    artifact-name: cygnus-3x5-left-studio
+
+  - board: nice_nano@2.0.0//zmk
+    shield: corne_right
+    artifact-name: cygnus-3x5-right
+
+  - board: nice_nano@2.0.0//zmk
+    shield: settings_reset
+    artifact-name: settings-reset
+
